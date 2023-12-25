@@ -158,7 +158,9 @@
     <None Include="fragment.glsl" />
     <None Include="fragment03.glsl" />
     <None Include="fragment05.glsl" />
+    <None Include="readme.md" />
     <None Include="readme1.md" />
+    <None Include="readme6.md" />
     <None Include="skyboxFragment.glsl" />
     <None Include="skyboxVertex.glsl" />
     <None Include="Sphere_fragment.glsl" />

@@ -34,6 +34,9 @@
     <Filter Include="源文件\chapter06">
       <UniqueIdentifier>{d57472bc-445c-4a60-b8bd-12768fbed66f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter07">
+      <UniqueIdentifier>{417b90de-02b3-47d4-9cdd-b876d7cbd3b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -141,6 +144,12 @@
     </None>
     <None Include="readme1.md">
       <Filter>源文件\chapter01</Filter>
+    </None>
+    <None Include="readme6.md">
+      <Filter>源文件\chapter06</Filter>
+    </None>
+    <None Include="readme.md">
+      <Filter>源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
