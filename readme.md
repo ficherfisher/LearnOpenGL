@@ -83,7 +83,6 @@ GLSL结构体(GLSL struct)：一个类似于C的结构体，用作着色器变�
 手电筒(Flashlight)：一个摆放在观察者视角的聚光。
 
 GLSL Uniform数组(GLSL Uniform Array)：一个uniform值数组。它的工作原理和C语言数组大致一样，只是不能动态分配内存。
-
 ## start05
 加载模型
 
