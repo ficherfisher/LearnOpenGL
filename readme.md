@@ -86,7 +86,9 @@ GLSL Uniform数组(GLSL Uniform Array)：一个uniform值数组。它的工作�
 
 ## start05
 加载模型
+
 自定义Mesh、model类
+
 使用aissmp
 
 
