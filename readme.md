@@ -91,6 +91,12 @@ GLSL Uniform数组(GLSL Uniform Array)：一个uniform值数组。它的工作�
 
 使用aissmp
 
+## start06
+天空盒 cubeMaps
+
+## start07
+实例化 ,主要用于渲染多物体时提升GPU性能
+
 
 
 
