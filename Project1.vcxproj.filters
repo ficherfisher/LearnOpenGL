@@ -37,6 +37,21 @@
     <Filter Include="源文件\chapter07">
       <UniqueIdentifier>{417b90de-02b3-47d4-9cdd-b876d7cbd3b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\resources">
+      <UniqueIdentifier>{ac2bc90f-a6da-4335-ad90-7d28a640f68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resource3D">
+      <UniqueIdentifier>{a48ddbb9-f456-4356-9515-3b6e543a9745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resource3D\Rock">
+      <UniqueIdentifier>{e9647dec-c137-4cbd-9fb0-0a2acde1666a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resource3D\Plant">
+      <UniqueIdentifier>{2c213260-542c-4c38-b18d-c5a98980c9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resource3D\barbara">
+      <UniqueIdentifier>{2284326e-ba86-4684-9e95-da97eca589af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -84,6 +99,9 @@
     <ClCompile Include="start06.cpp">
       <Filter>源文件\chapter06</Filter>
     </ClCompile>
+    <ClCompile Include="start07.cpp">
+      <Filter>源文件\chapter07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\peng\OneDrive\图片\本机照片\wall.png">
@@ -91,6 +109,36 @@
     </Image>
     <Image Include="C:\Users\peng\OneDrive\图片\Saved Pictures\wall.jpeg">
       <Filter>源文件\chapter01</Filter>
+    </Image>
+    <Image Include="..\..\image\background.jpg">
+      <Filter>资源文件\resources</Filter>
+    </Image>
+    <Image Include="..\..\image\bilibili.png">
+      <Filter>资源文件\resources</Filter>
+    </Image>
+    <Image Include="..\..\image\container2.png">
+      <Filter>资源文件\resources</Filter>
+    </Image>
+    <Image Include="..\..\image\container2_specular.png">
+      <Filter>资源文件\resources</Filter>
+    </Image>
+    <Image Include="..\..\image\plant.png">
+      <Filter>资源文件\resources</Filter>
+    </Image>
+    <Image Include="..\..\image\wall.png">
+      <Filter>资源文件\resources</Filter>
+    </Image>
+    <Image Include="..\..\resource3D\rock\Rock-Texture-Surface.jpg">
+      <Filter>资源文件\resource3D\Rock</Filter>
+    </Image>
+    <Image Include="..\..\resource3D\barbara\Barbara_Tex_Body.png">
+      <Filter>资源文件\resource3D\barbara</Filter>
+    </Image>
+    <Image Include="..\..\resource3D\barbara\Barbara_Tex_Face.png">
+      <Filter>资源文件\resource3D\barbara</Filter>
+    </Image>
+    <Image Include="..\..\resource3D\barbara\Barbara_Tex_Hair.png">
+      <Filter>资源文件\resource3D\barbara</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +199,27 @@
     <None Include="readme.md">
       <Filter>源文件</Filter>
     </None>
+    <None Include="vertex7.glsl">
+      <Filter>源文件\chapter07</Filter>
+    </None>
+    <None Include="fragment7.glsl">
+      <Filter>源文件\chapter07</Filter>
+    </None>
+    <None Include="asteroidsVertex7.glsl">
+      <Filter>源文件\chapter07</Filter>
+    </None>
+    <None Include="asteroidsFragment7.glsl">
+      <Filter>源文件\chapter07</Filter>
+    </None>
+    <None Include="..\..\image\skybox.rar">
+      <Filter>资源文件\resources</Filter>
+    </None>
+    <None Include="..\..\resource3D\rock\rock.mtl">
+      <Filter>资源文件\resource3D\Rock</Filter>
+    </None>
+    <None Include="..\..\resource3D\barbara\Barbara.mtl">
+      <Filter>资源文件\resource3D\barbara</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\ex_libary\Include\imgui\imconfig.h">
@@ -183,5 +252,21 @@
     <ClInclude Include="标头.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project11.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\resource3D\rock\rock.obj">
+      <Filter>资源文件\resource3D\Rock</Filter>
+    </Object>
+    <Object Include="..\..\resource3D\barbara\Barbara.obj">
+      <Filter>资源文件\resource3D\barbara</Filter>
+    </Object>
   </ItemGroup>
 </Project>

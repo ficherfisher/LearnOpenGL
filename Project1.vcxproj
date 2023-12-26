@@ -146,18 +146,35 @@
     <ClCompile Include="start04.cpp" />
     <ClCompile Include="start05.cpp" />
     <ClCompile Include="start06.cpp" />
+    <ClCompile Include="start07.cpp" />
     <ClCompile Include="test04.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\image\background.jpg" />
+    <Image Include="..\..\image\bilibili.png" />
+    <Image Include="..\..\image\container2.png" />
+    <Image Include="..\..\image\container2_specular.png" />
+    <Image Include="..\..\image\plant.png" />
+    <Image Include="..\..\image\wall.png" />
+    <Image Include="..\..\resource3D\barbara\Barbara_Tex_Body.png" />
+    <Image Include="..\..\resource3D\barbara\Barbara_Tex_Face.png" />
+    <Image Include="..\..\resource3D\barbara\Barbara_Tex_Hair.png" />
+    <Image Include="..\..\resource3D\rock\Rock-Texture-Surface.jpg" />
     <Image Include="C:\Users\peng\OneDrive\图片\Saved Pictures\wall.jpeg" />
     <Image Include="C:\Users\peng\OneDrive\图片\本机照片\wall.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\image\skybox.rar" />
+    <None Include="..\..\resource3D\barbara\Barbara.mtl" />
+    <None Include="..\..\resource3D\rock\rock.mtl" />
+    <None Include="asteroidsFragment7.glsl" />
+    <None Include="asteroidsVertex7.glsl" />
     <None Include="cubemapsFragment.glsl" />
     <None Include="cubemapsVertex.glsl" />
     <None Include="fragment.glsl" />
     <None Include="fragment03.glsl" />
     <None Include="fragment05.glsl" />
+    <None Include="fragment7.glsl" />
     <None Include="readme.md" />
     <None Include="readme1.md" />
     <None Include="readme6.md" />
@@ -171,6 +188,7 @@
     <None Include="vertex03.glsl" />
     <None Include="Torus_vertex04.glsl" />
     <None Include="vertex05.glsl" />
+    <None Include="vertex7.glsl" />
     <None Include="vertexShader.glsl" />
   </ItemGroup>
   <ItemGroup>
@@ -183,7 +201,15 @@
     <ClInclude Include="..\..\ex_libary\Include\imgui\imstb_rectpack.h" />
     <ClInclude Include="..\..\ex_libary\Include\imgui\imstb_textedit.h" />
     <ClInclude Include="..\..\ex_libary\Include\imgui\imstb_truetype.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="标头.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project11.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\..\resource3D\barbara\Barbara.obj" />
+    <Object Include="..\..\resource3D\rock\rock.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
