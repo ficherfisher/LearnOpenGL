@@ -25,7 +25,9 @@ vertex shader、fragment shader
 ## start02
 
 #include <geometry/SphereGeometry.h>
+
 #include <geometry/TorusGeometry.h>
+
 #include <geometry/PlaneGeometry.h>
 
 自定义3d图形 
