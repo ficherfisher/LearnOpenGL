@@ -99,7 +99,13 @@ GLSL Uniform数组(GLSL Uniform Array)：一个uniform值数组。它的工作�
 ## start07
 实例化 ,主要用于渲染多物体时提升GPU性能
 
+抗锯齿算法(MSSAA) # todo 自定义抗锯齿
 
+
+## start08
+高级光照处理
+
+blinn-Phong
 
 
 

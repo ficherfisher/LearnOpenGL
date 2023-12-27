@@ -52,6 +52,9 @@
     <Filter Include="资源文件\resource3D\barbara">
       <UniqueIdentifier>{2284326e-ba86-4684-9e95-da97eca589af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter08">
+      <UniqueIdentifier>{a85526eb-da4e-489f-b819-1a1b73b48e18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -102,6 +105,9 @@
     <ClCompile Include="start07.cpp">
       <Filter>源文件\chapter07</Filter>
     </ClCompile>
+    <ClCompile Include="start08.cpp">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\peng\OneDrive\图片\本机照片\wall.png">
@@ -139,6 +145,9 @@
     </Image>
     <Image Include="..\..\resource3D\barbara\Barbara_Tex_Hair.png">
       <Filter>资源文件\resource3D\barbara</Filter>
+    </Image>
+    <Image Include="..\..\resource3D\planet\planet_Quom1200.png">
+      <Filter>资源文件\resource3D\Plant</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +229,15 @@
     <None Include="..\..\resource3D\barbara\Barbara.mtl">
       <Filter>资源文件\resource3D\barbara</Filter>
     </None>
+    <None Include="..\..\resource3D\planet\planet.mtl">
+      <Filter>资源文件\resource3D\Plant</Filter>
+    </None>
+    <None Include="Vertex8.glsl">
+      <Filter>源文件\chapter08</Filter>
+    </None>
+    <None Include="Fragment8.glsl">
+      <Filter>源文件\chapter08</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\ex_libary\Include\imgui\imconfig.h">
@@ -260,13 +278,5 @@
     <ResourceCompile Include="Project11.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="..\..\resource3D\rock\rock.obj">
-      <Filter>资源文件\resource3D\Rock</Filter>
-    </Object>
-    <Object Include="..\..\resource3D\barbara\Barbara.obj">
-      <Filter>资源文件\resource3D\barbara</Filter>
-    </Object>
   </ItemGroup>
 </Project>

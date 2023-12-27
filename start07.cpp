@@ -1,3 +1,4 @@
+/*
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -44,6 +45,8 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_SAMPLES, 4);
+
 
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
@@ -85,7 +88,7 @@ int main()
     // configure global opengl state
     // -----------------------------
     glEnable(GL_DEPTH_TEST);
-
+    glEnable(GL_MULTISAMPLE);
     // build and compile shaders
     // -------------------------
     Shader shader("vertex7.glsl", "fragment7.glsl");
@@ -100,13 +103,13 @@ int main()
 
     // generate a large list of semi-random model transformation matrices
     // ------------------------------------------------------------------
-    unsigned int amount = 5000;
+    unsigned int amount = 1000;
     glm::mat4* modelMatrices;
     modelMatrices = new glm::mat4[amount];
     srand(static_cast<unsigned int>(glfwGetTime())); // initialize random seed
      
-    float radius = 150.0;
-    float offset = 25.0f;
+    float radius = 50.0;
+    float offset = 5.0f;
 
     for (unsigned int i = 0; i < amount; i++)
     {
@@ -213,7 +216,7 @@ int main()
         // draw planet
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model, glm::vec3(0.0f, -3.0f, 0.0f));
-        model = glm::scale(model, glm::vec3(4.0f, 4.0f, 4.0f));
+        model = glm::scale(model, glm::vec3(6.0f, 6.0f, 6.0f));
         model = glm::rotate(model, currentFrame/4.0f, glm::vec3(0.0f, 1.0f, 0.0f));
         shader.setMat4("model", model);
         planet.Draw(shader);
@@ -316,5 +319,5 @@ std::vector<glm::vec3> generateCircleCoordinates(glm::vec3 initialPoint, int num
     return coordinates;
 }
 
-
+*/
 
